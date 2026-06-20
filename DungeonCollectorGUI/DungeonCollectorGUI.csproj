@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DungeonCollectorRefactored\DungeonCollectorRefactored.csproj" />
+  </ItemGroup>
+	<ItemGroup>
+		<Content Include="..\DungeonCollectorRefactored\levels\level1.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<Link>levels\level1.txt</Link>
+		</Content>
+		<Content Include="..\DungeonCollectorRefactored\levels\level2.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<Link>levels\level2.txt</Link>
+		</Content>
+		<Content Include="..\DungeonCollectorRefactored\levels\level3.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<Link>levels\level3.txt</Link>
+		</Content>
+		<Content Include="..\DungeonCollectorRefactored\levels\level4.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<Link>levels\level4.txt</Link>
+		</Content>
+		<Content Include="..\DungeonCollectorRefactored\levels\level5.txt">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<Link>levels\level5.txt</Link>
+		</Content>
+	</ItemGroup>
+	
+
+
+</Project>

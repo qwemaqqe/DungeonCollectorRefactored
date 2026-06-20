@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DungeonCollectorGUI/DungeonCollectorGUI.csproj" Id="ed751a0a-4351-44ce-9436-045c5d60f122" />
+  <Project Path="DungeonCollectorRefactored/DungeonCollectorRefactored.csproj" />
+</Solution>
